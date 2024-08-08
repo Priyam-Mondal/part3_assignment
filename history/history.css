@@ -1,0 +1,48 @@
+
+/* Styles for history table */
+.history-table {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+table {
+    width: 100%;
+    max-width: 800px;
+    border-collapse: collapse;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+thead {
+    background-color: #f4f4f4;
+    border-bottom: 2px solid #ddd;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    font-weight: bold;
+}
+
+tr:last-child td {
+    border-bottom: none;
+}
+
+.approved {
+    color: #4caf50; /* Green for approved */
+}
+
+.pending {
+    color: #ff9800; /* Orange for pending */
+}
+
+.declined {
+    color: #f44336; /* Red for declined */
+}

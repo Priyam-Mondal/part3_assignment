@@ -1,0 +1,41 @@
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.employee-details,
+.leave-balance {
+    margin-bottom: 30px;
+}
+
+.employee-details article {
+    padding: 10px;
+    background-color: #f0f0f0;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.leave-balance table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.leave-balance th, 
+.leave-balance td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+.leave-balance th {
+    background-color: #f2f2f2;
+}

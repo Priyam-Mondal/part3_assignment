@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leave Request - Staff Leave Management System</title>
+    <link rel="stylesheet" href="../styles.css">
+    <link rel="stylesheet" href="leave-request.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="../dashboard/dashboard.html">Dashboard</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="leave-request">
+            <h1>Leave Request</h1>
+            <form action="" method="post">
+                <fieldset>
+                    
+                    
+                    <article class="form-item">
+                        <label for="current-balance">Current Leave Balance:</label>
+                        <input type="text" id="current-balance" name="current-balance" value="15" disabled>
+                    </article>
+
+                    <article class="form-item">
+                        <label for="leave-days">Number of Days:</label>
+                        <input type="number" id="leave-days" name="leave-days" min="1" max="30" required>
+                    </article>
+
+                    <article class="form-item">
+                        <label for="start-date">Start Date:</label>
+                        <input type="date" id="start-date" name="start-date" required>
+                    </article>
+
+                    <article class="form-item">
+                        <label for="end-date">End Date:</label>
+                        <input type="date" id="end-date" name="end-date" required>
+                    </article>
+
+                    <article class="form-item">
+                        <label for="reason">Reason for Leave:</label>
+                        <textarea id="reason" name="reason" rows="4" required></textarea>
+                    </article>
+
+                    <button type="submit">Submit Request</button>
+                </fieldset>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Staff Leave Management System</p>
+    </footer>
+</body>
+</html>

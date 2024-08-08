@@ -1,0 +1,62 @@
+
+/* Styles for login page form */
+.login-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 60px - 40px); /* Adjust height based on header and footer */
+    background-color: #f4f4f4; /* Light background for contrast */
+}
+
+form {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 12px; /* More rounded corners for a modern look */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Slightly larger shadow for more depth */
+    padding: 30px; /* More padding for spacious layout */
+    width: 100%;
+    max-width: 400px; /* Increased max-width for better layout on larger screens */
+    box-sizing: border-box; /* Include padding and border in width */
+    text-align: center;
+    margin: 20px; /* Add margin for spacing */
+}
+
+fieldset {
+    border: none;
+    margin: 0;
+    padding: 0;
+}
+
+legend {
+    font-weight: bold;
+    font-size: 1.2em; /* Larger font size for emphasis */
+    margin-bottom: 20px; /* More space below the legend */
+}
+
+label {
+    display: block;
+    margin-bottom: 15px; /* Slightly larger margin for better spacing */
+    text-align: left; /* Align text left for better readability */
+    font-size: 1em; /* Standard font size for labels */
+}
+
+input[type="radio"] {
+    margin-right: 10px;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 12px; /* Increased padding for easier interaction */
+    margin-bottom: 20px; /* More space below inputs */
+    border: 1px solid #ddd;
+    border-radius: 8px; /* More rounded corners */
+    box-sizing: border-box; /* Include padding and border in width */
+    font-size: 1em; /* Standard font size */
+}
+
+button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 12px 20px; /* Increased padding for better 
